@@ -211,7 +211,7 @@ class ChatClient:
             print("\n Exiting chat...")
             self._stop_event.set()
             receiver_thread.join(timeout=2)
-            print("Bye!")
+           
 
 
 def main():
